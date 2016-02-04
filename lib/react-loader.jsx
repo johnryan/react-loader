@@ -31,7 +31,8 @@
       className: React.PropTypes.string,
       zIndex:    React.PropTypes.number,
       top:       React.PropTypes.string,
-      left:      React.PropTypes.string
+      left:      React.PropTypes.string,
+      position   React.PropTypes.string
     },
 
     getDefaultProps: function () {
